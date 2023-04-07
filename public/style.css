@@ -523,6 +523,11 @@ video {
   margin: 1.25rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
 }
@@ -559,6 +564,14 @@ video {
   margin-top: 1rem;
 }
 
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .flex{
   display: flex;
 }
@@ -579,6 +592,30 @@ video {
   height: 2rem;
 }
 
+.h-64{
+  height: 16rem;
+}
+
+.h-80{
+  height: 20rem;
+}
+
+.h-96{
+  height: 24rem;
+}
+
+.h-40{
+  height: 10rem;
+}
+
+.h-44{
+  height: 11rem;
+}
+
+.h-48{
+  height: 12rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -597,6 +634,62 @@ video {
 
 .w-24{
   width: 6rem;
+}
+
+.w-9{
+  width: 2.25rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
+.w-80{
+  width: 20rem;
+}
+
+.w-40{
+  width: 10rem;
+}
+
+.w-44{
+  width: 11rem;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[3rem\]{
+  width: 3rem;
+}
+
+.w-\[10rem\]{
+  width: 10rem;
+}
+
+.w-\[9\.5rem\]{
+  width: 9.5rem;
+}
+
+.w-\[9\.3rem\]{
+  width: 9.3rem;
+}
+
+.w-\[8rem\]{
+  width: 8rem;
+}
+
+.w-\[7rem\]{
+  width: 7rem;
+}
+
+.w-\[6rem\]{
+  width: 6rem;
+}
+
+.w-64{
+  width: 16rem;
 }
 
 @keyframes bounce{
@@ -659,6 +752,10 @@ video {
   gap: 6rem;
 }
 
+.self-center{
+  align-self: center;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -677,6 +774,14 @@ video {
 
 .border-2{
   border-width: 2px;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.border-4{
+  border-width: 4px;
 }
 
 .border-b-2{
@@ -715,6 +820,21 @@ video {
 .border-green-600{
   --tw-border-opacity: 1;
   border-color: rgb(22 163 74 / var(--tw-border-opacity));
+}
+
+.border-emerald-600{
+  --tw-border-opacity: 1;
+  border-color: rgb(5 150 105 / var(--tw-border-opacity));
+}
+
+.border-emerald-900{
+  --tw-border-opacity: 1;
+  border-color: rgb(6 78 59 / var(--tw-border-opacity));
+}
+
+.border-emerald-800{
+  --tw-border-opacity: 1;
+  border-color: rgb(6 95 70 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -760,8 +880,56 @@ video {
   background-image: url(img/wave-haikei.svg);
 }
 
+.bg-\[url\(\)\]{
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\]{
+  background-image: url('');
+}
+
+.bg-\[url\(\'\.\.\/\'\)\]{
+  background-image: url('../');
+}
+
+.bg-\[url\(\'\.\'\)\]{
+  background-image: url('.');
+}
+
+.bg-\[url\(\'\.\/img\'\)\]{
+  background-image: url('./img');
+}
+
+.bg-\[url\(\'\.\/img\/\'\)\]{
+  background-image: url('./img/');
+}
+
+.bg-\[url\(\'\.\/img\/cellphone\.png\'\)\]{
+  background-image: url('./img/cellphone.png');
+}
+
+.bg-\[url\(\'\.\/img\/tablet\'\)\]{
+  background-image: url('./img/tablet');
+}
+
+.bg-\[url\(\'\.\/img\/tablet-sce\'\)\]{
+  background-image: url('./img/tablet-sce');
+}
+
+.bg-\[url\(\'\.\/img\/tablet-scre\'\)\]{
+  background-image: url('./img/tablet-scre');
+}
+
+.bg-\[url\(\'\.\/img\/tablet-screnn\.png\'\)\]{
+  background-image: url('./img/tablet-screnn.png');
+}
+
 .bg-cover{
   background-size: cover;
+}
+
+.bg-contain{
+  background-size: contain;
 }
 
 .bg-center{
