@@ -3,6 +3,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.link{
-    @apply border-r-2 border-red-400  p-2.5
-}
+
